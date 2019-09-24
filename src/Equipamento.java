@@ -8,12 +8,10 @@
  *
  * @author IFNMG
  */
-public class Data {
-    int dia;
-    int mes;
-    int ano;
-    String imprimir(){
-        return this.dia+"/"+this.mes+"/"+this.ano;
-    }
+public class Equipamento {
+    double preco;
     
+    void adicionarImposto(double valor){
+        double novopreco=preco+(preco*0.15);
+    }
 }

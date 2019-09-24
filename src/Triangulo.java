@@ -8,12 +8,12 @@
  *
  * @author IFNMG
  */
-public class Data {
-    int dia;
-    int mes;
-    int ano;
-    String imprimir(){
-        return this.dia+"/"+this.mes+"/"+this.ano;
+public class Triangulo {
+    double base;
+    double altura;
+    
+    void calcularArea(double valor){
+        double areaTriangulo = base*altura/2;
     }
     
 }
